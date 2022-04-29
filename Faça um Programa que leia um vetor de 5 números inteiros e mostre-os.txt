@@ -1,0 +1,28 @@
+package atividade;
+
+import java.util.Scanner;
+
+public class exercicios {
+	
+	
+	public static void main(String[] args) {
+	Scanner ler = new Scanner (System.in);
+	int a, b, c, d, e;
+	System.out.println("Primeiro inteiro");
+     a = ler.nextInt();
+     System.out.println("Segundo inteiro");
+     b = ler.nextInt();
+     System.out.println("Terceiro inteiro");
+     c = ler.nextInt();
+     System.out.println("Quarto inteiro");
+     d = ler.nextInt();
+     System.out.println("Quinto inteiro");
+     e = ler.nextInt();
+     
+     if(a < b) {
+    	 if(b < c) {
+    		 if(c < d) {
+    			 System.out.println(a+"-"+b+"-"+c+"-"+d+"-"+e);
+    		 }
+    	 }
+     }
